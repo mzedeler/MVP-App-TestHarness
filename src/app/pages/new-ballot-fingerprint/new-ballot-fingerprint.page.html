@@ -1,0 +1,29 @@
+<ion-content>
+  <div class="list-question">
+    <p>{{results.heading}}</p>
+  </div>
+  <div class="cen-div-text">
+    <p>{{results.text}}</p>
+    <ion-button color="dark" (click)="sendbtn()">
+      {{results.send}}
+      <ion-icon slot="end" name="paper-plane-outline"></ion-icon>
+    </ion-button>
+  </div>
+  <div class="bottom-div-text">
+    <p>{{results.text_detail}}</p>
+    <ion-button color="dark" (click)="copybtn()">
+      {{results.copy}}
+      <ion-icon slot="end" name="copy-outline"></ion-icon>
+    </ion-button>
+  </div>
+</ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-row>
+      <p>
+        {{results.nbf}}<br />
+        {{results.tsr432}}
+      </p>
+    </ion-row>
+  </ion-toolbar>
+</ion-footer>
