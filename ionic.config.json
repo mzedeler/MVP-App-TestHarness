@@ -1,0 +1,8 @@
+{
+  "name": "MVP Test Harness",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
